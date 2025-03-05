@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" , sans-serif;
+    background-color: rgb(241, 242, 244);
+}
+
+/* header css */
+
+header{
+    background-color: white;
+    padding: 5px 0;
+}
+.header-icon{
+    width: 25px;
+    height: 25px;
+}
+.arrow-icon{
+    width: 17px;
+    height: 17px;
+}
+.header-search-icon{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+.logo-img{
+    width: 100px;
+    height: 45px;
+}
+.head{
+    align-items: center;
+    display: flex;
+    margin: 0 4%;
+    justify-content: space-evenly;
+}
+.search-bar , .login-signup , .cart , .become-a-seller {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} 
+.search-bar{
+    width: 40%;
+    background-color: rgb(240, 245, 255);
+    border-radius: 5px;
+}
+input{
+    border: 0px;
+    outline: none;
+    background-color: rgb(240, 245, 255);
+    font-size: 15px;
+    width: 300px;
+    padding: 2%;
+}
+
+.login-signup:hover{
+    background-color: rgb(42, 85, 229);
+    color: white;
+}
+
+
+/* category */
+
+#category{
+    border: 0;
+    background-color: white;
+    margin: 10px 10px;
+    padding: 15px 0 10px 0;
+}
+.category-bar{
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.kilos , .mobiles , .fashion , .electronics , .home-furniture , .appliences , .flight-booking , .beauty-toys-more , .two-wheelers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.category-text{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.category-text-flex{
+    display: flex;
+    gap: 5px;
+}
+.category-img{
+    width: 60px;
+    height: 60px;
+}
+.category-arrow-icon{
+    width: 17px;
+    height: 17px;
+    margin-top: 8px;
+}
+
+
+/* banner slider */
+
+#slider{
+    border: 0;
+    background-color: rgb(241, 242, 244);
+    margin: 5px 10px;
+}
+.slide-move{
+    width: 17px;
+    height: 17px;
+    border: 0px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(184, 184, 184);
+    background-color: white;
+    padding: 30px 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+.slider-box{
+    display: flex;
+    align-items: center;
+}
+.slider-img{
+    width: 100%;
+    margin-top: -170px;
+}
+.arrow-keys{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    margin-top: 100px;
+}
+
+
+/* 499 section  */
+.F499-only-section{
+    border: 0;
+    background-color: white;
+    width: 90%;
+    margin: 5px 10px;
+}
+#F499-only{
+    display: flex;
+    justify-content: space-between;
+}
+.F499-category-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-text{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0 20px;
+}
+.light-text{
+    font-size: 15px;
+}
+.bold-text{
+    font-size: 15px;
+    margin-top: -15px;
+    font-weight: 500;
+}
+.F499-img{
+    width: 120px;
+    height: 170px;
+}
+.ad-img{
+    margin: 0 10px;
+    width: 240px;
+    height: 350px;
+}
+.F499-img:hover{
+    width: 125px;
+    height: 175px;
+    cursor: pointer;
+}
+
+
+/* best deal on smartphone  */
+
+#best-deals-smartphones{
+    border: 0;
+    background-color: white;
+    margin: -10px 10px;
+    height: 330px;
+}
+.head-text1{
+    padding: 10px 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.smartphone-cards{
+    text-align: center;
+    display: flex;
+    flex-direction: column
+}
+.smartphone-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+.smartphone-img{
+    width: 120px;
+    height: 150px;
+}
+.smartphone-img:hover{
+    width: 125px;
+    height: 155px;
+    cursor: pointer;
+}
+
+
+/* flipkart ads banner  */
+
+#flipkart-ad{
+    margin: 30px 10px;
+    border: 0;
+    height: 250px;
+    background-color: white;
+}
+.ad-bar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.fk-ad-img{
+    width: 490px;
+    height: 250px;
+}
